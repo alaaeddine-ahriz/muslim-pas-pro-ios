@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83A1B1FF2B1234560012ABCD /* MuslimProiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B1FE2B1234560012ABCD /* MuslimProiOSApp.swift */; };
+		83A1B2012B1234560012ABCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2002B1234560012ABCD /* ContentView.swift */; };
+		83A1B2032B1234580012ABCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A1B2022B1234580012ABCD /* Assets.xcassets */; };
+		83A1B2062B1234580012ABCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A1B2052B1234580012ABCD /* Preview Assets.xcassets */; };
+		83A1B20D2B1235670012ABCD /* PrayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B20C2B1235670012ABCD /* PrayerView.swift */; };
+		83A1B20F2B1235760012ABCD /* QuranView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B20E2B1235760012ABCD /* QuranView.swift */; };
+		83A1B2112B1235820012ABCD /* QiblaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2102B1235820012ABCD /* QiblaView.swift */; };
+		83A1B2132B1235970012ABCD /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2122B1235970012ABCD /* ThemeManager.swift */; };
+		83A1B2152B1235A70012ABCD /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2142B1235A70012ABCD /* LocationManager.swift */; };
+		83A1B2172B1235B50012ABCD /* PrayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2162B1235B50012ABCD /* PrayerManager.swift */; };
+		83A1B2192B1235C50012ABCD /* QuranManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B2182B1235C50012ABCD /* QuranManager.swift */; };
+		83A1B21B2B1235D20012ABCD /* QiblaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B21A2B1235D20012ABCD /* QiblaManager.swift */; };
+		83A1B21D2B1235E30012ABCD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A1B21C2B1235E30012ABCD /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83A1B1FB2B1234560012ABCD /* MuslimProiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuslimProiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83A1B1FE2B1234560012ABCD /* MuslimProiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimProiOSApp.swift; sourceTree = "<group>"; };
+		83A1B2002B1234560012ABCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83A1B2022B1234580012ABCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83A1B2052B1234580012ABCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83A1B20C2B1235670012ABCD /* PrayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerView.swift; sourceTree = "<group>"; };
+		83A1B20E2B1235760012ABCD /* QuranView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranView.swift; sourceTree = "<group>"; };
+		83A1B2102B1235820012ABCD /* QiblaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaView.swift; sourceTree = "<group>"; };
+		83A1B2122B1235970012ABCD /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		83A1B2142B1235A70012ABCD /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		83A1B2162B1235B50012ABCD /* PrayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerManager.swift; sourceTree = "<group>"; };
+		83A1B2182B1235C50012ABCD /* QuranManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranManager.swift; sourceTree = "<group>"; };
+		83A1B21A2B1235D20012ABCD /* QiblaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiblaManager.swift; sourceTree = "<group>"; };
+		83A1B21C2B1235E30012ABCD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83A1B1F82B1234560012ABCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83A1B1F22B1234560012ABCD = {
+			isa = PBXGroup;
+			children = (
+				83A1B1FD2B1234560012ABCD /* MuslimProiOS */,
+				83A1B1FC2B1234560012ABCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83A1B1FC2B1234560012ABCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83A1B1FB2B1234560012ABCD /* MuslimProiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83A1B1FD2B1234560012ABCD /* MuslimProiOS */ = {
+			isa = PBXGroup;
+			children = (
+				83A1B1FE2B1234560012ABCD /* MuslimProiOSApp.swift */,
+				83A1B2002B1234560012ABCD /* ContentView.swift */,
+				83A1B2222B12363E0012ABCD /* Views */,
+				83A1B2232B1236480012ABCD /* Managers */,
+				83A1B2022B1234580012ABCD /* Assets.xcassets */,
+				83A1B2042B1234580012ABCD /* Preview Content */,
+			);
+			path = MuslimProiOS;
+			sourceTree = "<group>";
+		};
+		83A1B2042B1234580012ABCD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				83A1B2052B1234580012ABCD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		83A1B2222B12363E0012ABCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				83A1B20C2B1235670012ABCD /* PrayerView.swift */,
+				83A1B20E2B1235760012ABCD /* QuranView.swift */,
+				83A1B2102B1235820012ABCD /* QiblaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		83A1B2232B1236480012ABCD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				83A1B2122B1235970012ABCD /* ThemeManager.swift */,
+				83A1B2142B1235A70012ABCD /* LocationManager.swift */,
+				83A1B2162B1235B50012ABCD /* PrayerManager.swift */,
+				83A1B2182B1235C50012ABCD /* QuranManager.swift */,
+				83A1B21A2B1235D20012ABCD /* QiblaManager.swift */,
+				83A1B21C2B1235E30012ABCD /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83A1B1FA2B1234560012ABCD /* MuslimProiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83A1B2092B1234580012ABCD /* Build configuration list for PBXNativeTarget "MuslimProiOS" */;
+			buildPhases = (
+				83A1B1F72B1234560012ABCD /* Sources */,
+				83A1B1F82B1234560012ABCD /* Frameworks */,
+				83A1B1F92B1234560012ABCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuslimProiOS;
+			productName = MuslimProiOS;
+			productReference = 83A1B1FB2B1234560012ABCD /* MuslimProiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83A1B1F32B1234560012ABCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					83A1B1FA2B1234560012ABCD = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 83A1B1F62B1234560012ABCD /* Build configuration list for PBXProject "MuslimProiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83A1B1F22B1234560012ABCD;
+			productRefGroup = 83A1B1FC2B1234560012ABCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83A1B1FA2B1234560012ABCD /* MuslimProiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A1B1F92B1234560012ABCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1B2062B1234580012ABCD /* Preview Assets.xcassets in Resources */,
+				83A1B2032B1234580012ABCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83A1B1F72B1234560012ABCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A1B20D2B1235670012ABCD /* PrayerView.swift in Sources */,
+				83A1B2172B1235B50012ABCD /* PrayerManager.swift in Sources */,
+				83A1B20F2B1235760012ABCD /* QuranView.swift in Sources */,
+				83A1B2132B1235970012ABCD /* ThemeManager.swift in Sources */,
+				83A1B2012B1234560012ABCD /* ContentView.swift in Sources */,
+				83A1B21D2B1235E30012ABCD /* NetworkManager.swift in Sources */,
+				83A1B2152B1235A70012ABCD /* LocationManager.swift in Sources */,
+				83A1B21B2B1235D20012ABCD /* QiblaManager.swift in Sources */,
+				83A1B1FF2B1234560012ABCD /* MuslimProiOSApp.swift in Sources */,
+				83A1B2192B1235C50012ABCD /* QuranManager.swift in Sources */,
+				83A1B2112B1235820012ABCD /* QiblaView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		83A1B2072B1234580012ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83A1B2082B1234580012ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83A1B20A2B1234580012ABCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimProiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Cette application a besoin d'accéder à votre position pour calculer les heures de prière précises et l'orientation vers la Qibla.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muslimpro.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83A1B20B2B1234580012ABCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MuslimProiOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Cette application a besoin d'accéder à votre position pour calculer les heures de prière précises et l'orientation vers la Qibla.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.muslimpro.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83A1B1F62B1234560012ABCD /* Build configuration list for PBXProject "MuslimProiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1B2072B1234580012ABCD /* Debug */,
+				83A1B2082B1234580012ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83A1B2092B1234580012ABCD /* Build configuration list for PBXNativeTarget "MuslimProiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83A1B20A2B1234580012ABCD /* Debug */,
+				83A1B20B2B1234580012ABCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83A1B1F32B1234560012ABCD /* Project object */;
+} 
